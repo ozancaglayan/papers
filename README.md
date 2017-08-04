@@ -3,6 +3,12 @@
 ### 4 August 2017
 
  - [Jan Niehues, Eunah Cho - Exploiting Linguistic Resources for Neural Machine Translation Using Multi-task Learning](https://arxiv.org/pdf/1708.00993.pdf)
+  ```
+   Multi-task setup with POS and NE recognition as additional tasks.
+   Each mini-batch represents only a single task.
+   Sequence length information is used in decoding for POS tagging task.
+   Multi-task setup seems to improve MT baseline.
+  ```
  - [Merity et al - Revisiting Activation Regularization for Language RNNs](https://arxiv.org/pdf/1708.01009.pdf)
 
 ### 3 August 2017
