@@ -21,7 +21,7 @@
  - [Sennrich et al - The University of Edinburgh's Neural MT Systems for WMT17](http://arxiv.org/pdf/1708.00726.pdf)
  - [Niehues et al - Analyzing Neural MT Search and Model Performance](http://arxiv.org/pdf/1708.00563.pdf)
  - [van der Wees et al - Dynamic Data Selection for Neural Machine Translation](http://arxiv.org/pdf/1708.00712.pdf) :thumbsup:
-  - Relevance scores by Axelrod cross-entropy difference, epoch sampling w.r.t those scores
+   - Relevance scores by Axelrod cross-entropy difference, epoch sampling w.r.t those scores
  
  ### 2 August 2017
  
