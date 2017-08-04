@@ -3,13 +3,17 @@
 ### 4 August 2017
 
  - [Jan Niehues, Eunah Cho - Exploiting Linguistic Resources for Neural Machine Translation Using Multi-task Learning](https://arxiv.org/pdf/1708.00993.pdf)
-  ```
-   Multi-task setup with POS and NE recognition as additional tasks.
-   Each mini-batch represents only a single task.
-   Sequence length information is used in decoding for POS tagging task.
-   Multi-task setup seems to improve MT baseline.
-  ```
+   - Multi-task setup with POS and NE recognition as additional tasks.
+   - Each mini-batch represents only a single task.
+   - Sequence length information is used in decoding for POS tagging task.
+   - Multi-task setup seems to improve MT baseline.
+
  - [Merity et al - Revisiting Activation Regularization for Language RNNs](https://arxiv.org/pdf/1708.01009.pdf)
+   - L2 activation regularization (AR): The output of the RNN (h_t) is regularized
+     - \alpha L2(drop_mask * h_t)
+   - Temporal activation regularization (TAR): Penalizes any large changes in h_t between timesteps.
+     - \beta L2(h_t - h_{t+1})
+   - Perplexity is improved consistently.
 
 ### 3 August 2017
 
