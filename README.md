@@ -1,5 +1,10 @@
 # Reading Diary
 
+### 9 August 2017
+ - [Zhao et al - Learning Sleep Stages from Radio Signals: A Conditional Adversarial Architecture](http://sleep.csail.mit.edu/files/rfsleep-paper.pdf) \[[WEB](http://sleep.csail.mit.edu)\]
+   - Reflected RF spectrograms encoded with CNN + RNN
+   - 3-way adversarial setup pushing the system to learn a source-invariant representation
+
 ### 4 August 2017
 
  - [Jan Niehues, Eunah Cho - Exploiting Linguistic Resources for Neural Machine Translation Using Multi-task Learning](https://arxiv.org/pdf/1708.00993.pdf)
