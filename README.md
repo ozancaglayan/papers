@@ -1,5 +1,10 @@
 # Reading Diary
 
+### 21 August 2017
+ - [Bello et al - Neural Optimizer Search with Reinforcement Learning](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)
+   - Learns custom update rules using a controller RNN and RL.
+   - Transfers well to other tasks like NMT, i.e. an optimizer with an update rule of `g * exp(sign(g)*sign(ravg(g)))` improves upon ADAM.
+
 ### 9 August 2017
  - [Zhao et al - Learning Sleep Stages from Radio Signals: A Conditional Adversarial Architecture](http://sleep.csail.mit.edu/files/rfsleep-paper.pdf) \[[WEB](http://sleep.csail.mit.edu)\]
    - Reflected RF spectrograms encoded with CNN + RNN
