@@ -1,5 +1,13 @@
 # Reading Diary
 
+### 23 August 2017
+ - [Serdyuk et al - Twin Networks: Using the Future as a Regularizer](https://arxiv.org/abs/1708.06742)
+   - Classical sequence-to-sequence extended with an additional right-to-left RNN decoder which generates the reversed target tokens.
+   - The loss is extended with this new sequence loss as well as a ~L2 distance between the hidden states of these two RNNs where the idea is to learn an affine transform between the forward decoder and the backward decoder.
+   - The ~L2 distance loss is back-propagated only to the forward decoder.
+   - %12 relative improvement in CER for a speech recognition task.
+   - (**Comment**: Similar to L2R-R2L works in NLP/MT)
+
 ### 21 August 2017
  - [Bello et al - Neural Optimizer Search with Reinforcement Learning](http://proceedings.mlr.press/v70/bello17a/bello17a.pdf)
    - Learns custom update rules using a controller RNN and RL.
