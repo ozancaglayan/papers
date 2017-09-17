@@ -1,9 +1,9 @@
 # Reading Diary
 
 ### 17 September 2017
- - [Weng et al - Neural Machine Translation with Word Predictions](https://arxiv.org/pdf/1708.01771.pdf)
-   - 
-
+  - [Weng et al - Neural Machine Translation with Word Predictions](https://arxiv.org/pdf/1708.01771.pdf)
+    - tttt
+  
 ### 23 August 2017
  - [Serdyuk et al - Twin Networks: Using the Future as a Regularizer](https://arxiv.org/abs/1708.06742)
    - Classical sequence-to-sequence extended with an additional right-to-left RNN decoder which generates the reversed target tokens.
