@@ -2,7 +2,7 @@
 
 ### 17 September 2017
   - [Weng et al - Neural Machine Translation with Word Predictions (EMNLP17)](https://arxiv.org/pdf/1708.01771.pdf)
-    - Hidden states to perdict the target vocabulary, ensure better encoder and decoder representations.
+    - Hidden states to predict the target vocabulary, ensure better encoder and decoder representations.
     - Britz et al. 2017 find that the decoder initialization does not affect the translation performance.
       - Here authors argue that initial state is important and neglected and supervises it additionally.
     - The claims in 4.1 about error propagation is wrong for attentive networks.
