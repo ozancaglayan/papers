@@ -9,13 +9,12 @@
       - Written by SMT using NMT decoding information.
       - NMT decoder scores phrases and performs a word/or/token selection.
     - Encoder enriched with syntactic chunk information.
-      - Q: Is this variant tested with base NMT as well?
     - Architecture: A sigmoid-scalar MLP (balancer) defining the trade-off between word/phrase generators.
       - Linguistically improved source representation is used.
       - Phrase memory updated each decoding step using NMT info, phrases are scored with SMT.
       - Separate probabilities are computed during beam search, fused with balancer.
       - If a phrase has been selected, the decoder updates its decoding state by consuming the words in it.
-    - Results: +0.5 BLEU with memory, +1.0 with memory+chunking but no results for only chunking.
+    - Results: +0.5 BLEU with memory, +1.0 with memory+chunking but **no results** for only chunking.
     - Related work section is pretty rich.
 
   - [Weng et al - Neural Machine Translation with Word Predictions (EMNLP17)](https://arxiv.org/pdf/1708.01771.pdf)
