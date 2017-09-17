@@ -1,6 +1,23 @@
 # Reading Diary
 
 ### 17 September 2017
+  - [Wang et al - Translating Phrases in Neural Machine Translation (EMNLP17)](https://arxiv.org/pdf/1708.01980)
+    - Word-by-word generation in NMT makes it difficult to translate multi-word phrases.
+      - Zhang and Zong 2016 - Bridging neural machine translation and bilingual dictionaries.
+      - Stahlberg et al 2016 - Syntactically guided neural machine translation.
+    - Auxiliary phrase memory to store target phrases in symbolic form:
+      - Written by SMT using NMT decoding information.
+      - NMT decoder scores phrases and performs a word/or/token selection.
+    - Encoder enriched with syntactic chunk information.
+      - Q: Is this variant tested with base NMT as well?
+    - Architecture: A sigmoid-scalar MLP (balancer) defining the trade-off between word/phrase generators.
+      - Linguistically improved source representation is used.
+      - Phrase memory updated each decoding step using NMT info, phrases are scored with SMT.
+      - Separate probabilities are computed during beam search, fused with balancer.
+      - If a phrase has been selected, the decoder updates its decoding state by consuming the words in it.
+    - Results: +0.5 BLEU with memory, +1.0 with memory+chunking but no results for only chunking.
+    - Related work section is pretty rich.
+
   - [Weng et al - Neural Machine Translation with Word Predictions (EMNLP17)](https://arxiv.org/pdf/1708.01771.pdf)
     - Hidden states to predict the target vocabulary, ensure better encoder and decoder representations.
     - Britz et al. 2017 find that the decoder initialization does not affect the translation performance. Here authors argue that initial state is important and neglected and supervises it additionally.
