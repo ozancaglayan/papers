@@ -2,7 +2,16 @@
 
 ### 17 September 2017
   - [Weng et al - Neural Machine Translation with Word Predictions](https://arxiv.org/pdf/1708.01771.pdf)
-    - tttt
+    - Hidden states to perdict the target vocabulary, ensure better encoder and decoder representations.
+    - Britz et al. 2017 find that the decoder initialization does not affect the translation performance.
+      - Here authors argue that initial state is important and neglected and supervises it additionally.
+    - The claims in 4.1 about error propagation is wrong for attentive networks.
+    - Initial state (further, all states) -> predict all the words in the target sentence.
+      - WPE: Puts a softmax estimation over the initial hidden state s_0 of the decoder, applies attention over encoder states.
+      - WPD: Predict the remaining/untranslated words from each hidden decoder state.
+    - All approaches can be further used to constrain target vocab during inference.
+    - Consistent improvements achieved based on the results.
+    - Q: Why not train from scratch and instead use a pre-trained baseNMT?
   
 ### 23 August 2017
  - [Serdyuk et al - Twin Networks: Using the Future as a Regularizer](https://arxiv.org/abs/1708.06742)
