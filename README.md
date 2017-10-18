@@ -2,6 +2,11 @@
 
 ### 18 October 2017
   - [Eleni Vasilaki - Is Epicurus the Father of Reinforcement Learning?](https://arxiv.org/pdf/1710.04582v1.pdf)
+  - [Ramachandran et al - Swish: A self-gated activation function](https://arxiv.org/pdf/1710.05941.pdf)
+     - Swish is a novel activation function with the form f(x) = x · sigmoid(x).
+     - Swish has the properties of one-sided boundedness at zero, smoothness, and non-monotonicity, which may play a role in
+the observed efficacy of Swish and similar activation functions.
+     - Our experiments used models and hyperparameters that were designed for ReLU and just replaced the ReLU activation function with Swish; even this simple, suboptimal procedure resulted in Swish consistently outperforming ReLU and other activation functions. We expect additional gains to be made when these models and hyperparameters are specifically designed with Swish in mind. The simplicity of Swish and its similarity to ReLU means that replacing ReLUs in any network is just a simple one line code change.
 
 ### 17 September 2017
   - [Wang et al - Translating Phrases in Neural Machine Translation (EMNLP17)](https://arxiv.org/pdf/1708.01980)
