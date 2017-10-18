@@ -1,5 +1,8 @@
 # Reading Diary
 
+### 18 October 2017
+  - [Eleni Vasilaki - Is Epicurus the Father of Reinforcement Learning?](https://arxiv.org/pdf/1710.04582v1.pdf)
+
 ### 17 September 2017
   - [Wang et al - Translating Phrases in Neural Machine Translation (EMNLP17)](https://arxiv.org/pdf/1708.01980)
     - Word-by-word generation in NMT makes it difficult to translate multi-word phrases.
