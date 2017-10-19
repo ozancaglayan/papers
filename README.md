@@ -1,5 +1,8 @@
 # Reading Diary
 
+### 19 October 2017
+  - [Stop using word2vec (blog)](http://multithreaded.stitchfix.com/blog/2017/10/18/stop-using-word2vec/)
+
 ### 18 October 2017
   - [Eleni Vasilaki - Is Epicurus the Father of Reinforcement Learning?](https://arxiv.org/pdf/1710.04582v1.pdf)
   - [Ramachandran et al - Swish: A self-gated activation function](https://arxiv.org/pdf/1710.05941.pdf)
