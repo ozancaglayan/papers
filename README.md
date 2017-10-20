@@ -1,7 +1,16 @@
-# Reading Diary
+# Learning Diary
+
+### 20 October 2017
+  - [Lee et al - Emergent Translation in Multi-Agent Communication](https://arxiv.org/pdf/1710.06922.pdf)
+    - Two agents communicate with each other in their own respective languages to solve a visual
+referential task. One agent sees an **image** and describes it in **its native language** to the other agent.
+The other agent is **given several images**, one of which is the same image shown to the first agent,
+and has to choose the **correct image** using the description.
+    - The game is played in both directions simultaneously, and the agents are jointly trained to solve this task. We only allow agents to send a sequence of discrete symbols to each other, and never a continuous vector.
 
 ### 19 October 2017
   - [Stop using word2vec (blog)](http://multithreaded.stitchfix.com/blog/2017/10/18/stop-using-word2vec/)
+  - [Essence of Linear Algebra - I](https://www.youtube.com/watch?v=kjBOesZCoqc)
 
 ### 18 October 2017
   - [Eleni Vasilaki - Is Epicurus the Father of Reinforcement Learning?](https://arxiv.org/pdf/1710.04582v1.pdf)
