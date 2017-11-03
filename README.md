@@ -1,5 +1,10 @@
 # Learning Diary
 
+### 03 November 2017
+  - [Alcantara - Empirical analysis of non-linear activation functions for Deep Neural Networks in classification tasks](https://arxiv.org/pdf/1710.11272.pdf)
+    - Small report that compares sigmoid, ReLU, ELU, SELU and LReLU over MNIST.
+    - ReLu, Leaky ReLu, ELU and SELU activation functions all yield great results in terms of validation error and accuracy on the MNIST task, with the ELU layer overall performing better than all other models.
+
 ### 20 October 2017
   - [Lee et al - Emergent Translation in Multi-Agent Communication](https://arxiv.org/pdf/1710.06922.pdf)
     - Two agents communicate with each other in their own respective languages to solve a visual
