@@ -1,5 +1,15 @@
 # Learning Diary
 
+### 07 November 2017
+  - [Bawden et al - Evaluating Discourse Phenomena in NMT](https://arxiv.org/pdf/1711.00513.pdf)
+    - Analysis of the impact of inter-sentence context in terms of coreference resolution, lexical disambiguation.
+    - Models:
+      - Classical attentive NMT baseline
+      - Concatenated src_prev-src_current -> trg
+      - Concatenated src_prev-src_current -> trg_prev, trg_current
+      - Multi-source multi-attention similar to our fusion model
+      
+
 ### 03 November 2017
   - [Alcantara - Empirical analysis of non-linear activation functions for Deep Neural Networks in classification tasks](https://arxiv.org/pdf/1710.11272.pdf)
     - Small report that compares sigmoid, ReLU, ELU, SELU and LReLU over MNIST.
